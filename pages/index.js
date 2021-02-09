@@ -11,7 +11,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to New App <a href="https://nextjs.org"> which is deployed in AWS and AZURE</a>
+          Welcome to New App <a href="https://nextjs.org"> deployed</a>
         </h1>
 
         <p className={styles.description}>
