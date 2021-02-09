@@ -24,4 +24,4 @@ jobs:
           aws-region: us-east-1
           
           
-      - run: aws s3 sync ./out s3://[bucket-name]
+      - run: aws s3 sync ./out s3://my-new-test-app-s3-bucket
