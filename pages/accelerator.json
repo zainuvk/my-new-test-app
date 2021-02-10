@@ -1,0 +1,21 @@
+{
+    "name": "Next.js app for accelerator",
+    "description": "An accelerator to deploy a next.js  app in AWS",
+    "tags": [
+      "aws",
+      "nextjs",
+      "s3bucket"
+    ],
+    "inputs": {
+      "secrets" : [
+        {
+          "name": "AWS_ACCESS_KEY_ID",
+          "description": "Enter your aws access key id"
+        },
+        {
+            "name": "AWS_SECRET_ACCESS_KEY",
+            "description": "Enter your aws secret access key"
+          }
+      ]
+    }
+  }
