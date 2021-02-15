@@ -11,7 +11,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          New testing by Zainu <a href="https://nextjs.org"> deployed</a>
+          New testing by Zainu <a href="https://nextjs.org"> creating resources and deploy in AWS</a>
         </h1>
 
         <p className={styles.description}>
