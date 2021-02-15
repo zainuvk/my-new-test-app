@@ -24,3 +24,4 @@ jobs:
           aws-region: ap-south-1
           
       - run: aws s3 sync ./out s3://my-new-test-app-s3-bucket
+      - run: aws s3 sync ./out s3://new-nextjs-app
