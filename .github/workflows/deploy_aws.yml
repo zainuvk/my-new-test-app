@@ -25,9 +25,9 @@ jobs:
       
       
       - name: Sleep for 30 seconds
-      uses: jakejarvis/wait-action@master
-      with:
-        time: '60s'
+        uses: jakejarvis/wait-action@master
+        with:
+          time: '60s'
           
       #- run: aws s3 sync ./out s3://my-new-test-app-s3-bucket
       - run: aws s3 sync ./out s3://new-nextjs-app
